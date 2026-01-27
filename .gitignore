@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Data artifacts (keep repo small)
+data_raw/
+outputs/
+
+# Optional: logs
+*.log
