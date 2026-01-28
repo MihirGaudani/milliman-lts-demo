@@ -92,8 +92,6 @@ Installed into your virtual env:
 - python-dotenv (optional)
 - loguru (optional)
 
-> Optional improvement (recommended): add a `requirements.txt` and install with  
-> `pip install -r requirements.txt`
 
 ---
 
