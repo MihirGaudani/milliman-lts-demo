@@ -61,7 +61,6 @@ It demonstrates:
      Monthly premiums vs claims and monthly `loss_ratio`
 
 ### Data flow diagram (conceptual)
-
 Raw files → Python ingest → `raw_*` tables → SQL transform/DQ → `stg_*` → SQL marts → `mart_*` → screenshots/exports
 
 ---
@@ -93,13 +92,14 @@ Installed into your virtual env:
 - python-dotenv (optional)
 - loguru (optional)
 
+> Optional improvement (recommended): add a `requirements.txt` and install with  
+> `pip install -r requirements.txt`
+
 ---
 
 ## Quickstart (reproduce end-to-end)
 
-### 1) Start Postgres (Docker)
-
-From the repo root:
-
+### 0) Clone the repo
 ```bash
-docker compose up -d
+git clone https://github.com/MihirGaudani/milliman-lts-demo.git
+cd milliman-lts-demo
